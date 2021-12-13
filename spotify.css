@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+    
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+    
+}
+.navbar{
+    position:absolute;
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+    background-color: black;
+}
+.navbar img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+
+}
+.flx{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 15px 40px;
+    position: absolute;
+    
+    left: 80px;
+}
+.l1{
+    
+    color: white;
+}
+.l2{
+    margin-left: 10px;
+    color: white;
+}
+.spn{
+    color: white;
+    position: absolute;
+    left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+}
+.container1{
+    background-color: black;
+    height: 600px;
+    width: 1100px;
+    
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    border: 3px solid red;
+}
+.container1 h1{
+    color: white;
+    text-align: center;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: black;
+    margin-top: 15px;
+    background-color: blanchedalmond;
+}
+.cont1 img{
+    height: 30px;
+    width: 20px;
+}
+.song{
+    margin-left: 5px;
+    position: absolute;
+    left: 400px;
+    align-items: center;
+}
+.time{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    right: 5px;
+    
+
+}
+.play{
+    position: absolute;
+    right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.footer{
+    border: 3px solid red;
+    width: 100vw;
+    height: 70px;
+    top: 690px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: violet;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    top: 4px;
+}
+.icon img{
+    height: 100px;
+    width: 40px;
+    margin-left:30px ;
+    
+
+}
+.fimg img{
+    height: 30px;
+    width: 100px;
+    top: 20px;
+    left: 400px;
+    position: absolute;
+    border: 3px solid red;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.fimg img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.plimg{
+    
+}
